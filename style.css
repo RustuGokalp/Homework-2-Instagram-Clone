@@ -1,0 +1,223 @@
+* {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: #fafafa;
+}
+body {
+    padding-top: 15px;
+}
+ul {
+    background-color: white;
+}
+ul li {
+    background-color: white;
+}
+/* Navbar Start */
+nav {
+    height: 60px;
+    border-bottom: 1px solid rgb(128, 128, 128, 0.2);
+}
+.instagram-logo{
+    margin-left: 192px;
+}
+::placeholder{
+    text-align: center;
+    font-size: 14px;
+}
+.search-input {
+    position: relative;
+}
+.search-icon {
+    position: absolute;
+    left: 42.3%;
+    top: 21px;
+    width: 15px;
+    height: 15px;
+    color: gray;
+}
+/* Navbar End */
+
+/* Right Pannel Start*/
+#right-pannel {
+    margin-top: 4rem;
+    position: fixed;
+    right: 8%;
+    padding-top: 20px;
+}
+.right-pannel-photos {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: 1px solid rgb(0, 0, 0, 0.1);
+    margin-right: 7px;
+    margin-top: 10px;
+}
+.profile-name {
+    font-size: 15px;
+    display: inline-block;
+    color: black;
+}
+.profile-name:hover {
+    color: black;
+    text-decoration: none;
+}
+.suggestion {
+    font-size: 14px;
+    color: rgba(0, 0, 0, 0.3);
+    display: inline-block;
+    margin-top: 15px;
+    margin-bottom: 0;
+}
+.see-all {
+    font-size: 12px;
+    display: block;
+    color: black;
+    float: right;
+    margin-top: 15px;
+    font-weight: 400;
+}
+.other-profile-names {
+    font-size: 13px;
+    display: inline-block;
+    color: black;
+
+}
+.other-profile-names:hover {
+    color: black;
+    text-decoration: none;
+}
+.follow {
+    float: right;
+    font-size: 13px;
+    font-weight: 600;
+    margin-top: 10px;
+}
+.follow:hover {
+    text-decoration: none;
+    color: #007bff;
+}
+.rightpannellinks {
+    text-decoration: none;
+    color: lightgrey;
+    width: 378px;
+    height: 100px;
+  }
+.rightpannellinks:hover {
+    text-decoration: none;
+    color: lightgrey;
+  }
+/* Right Pannel End */
+
+/* Top Tab Start */
+.story-bar {
+    border: 1px solid rgb(0, 0, 0, 0.1);
+    border-radius: 5px;
+    width: 550px; 
+    height: 100px; 
+    background-color: white;
+    margin-top: 4.2rem;
+    margin-bottom: 1rem;
+}
+.story-bar ul {
+    list-style-type: none;
+}
+.story-bar ul li {
+    background-color: white;
+}
+.story-bar ul a {
+    background-color: white;
+}
+.story-bar ul a span {
+    background-color: white;
+}
+.storytext {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 12px;
+    color: black;
+  }
+  .storyphoto {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border: 2px solid rgb(238, 39, 82);
+    margin-right: 7px;
+    margin-top: 7px;
+  }  
+/* Top Tab End */
+
+/* Posts Start */
+
+.post-profile-photo {
+    border-radius: 50%;
+    border: 1px solid rgb(0, 0, 0, 0.1);
+}
+.post-profile-name {
+    color: black;
+}
+.post-profile-name:hover {
+    color: black;
+    text-decoration: none;
+}
+.three-dot {
+    margin-left: 22rem;
+}
+.card-header ul {
+    background-color: white;
+}
+.card-header ul li {
+    background-color: white;
+}
+.user-name {
+    font-size: 14px;
+}
+.card-body ul {
+    padding-top: 8px;
+    margin-bottom: 8px;
+}
+.card-body ul li {
+    padding-left: 10px;
+}
+.post-links {
+    color: black;
+    font-size: 14px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.post-links:hover {
+    color: black;
+}
+.post-user-font {
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 14px;
+    color: black;
+    background-color: white;
+  }
+.reply-to-comment {
+    color:#0070B8;
+}
+.reply-to-comment:hover {
+    color:#0070B8;
+}
+.post-time {
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 10px;
+    color: #AB9CBD;
+}
+.post-time:hover {
+    color: #AB9CBD;
+}
+.comment-area {
+    border: 0;
+    min-height: 40px;
+    width: 445px;
+    background-color: white;
+    resize: none;
+}
+.comment-area:focus {
+    outline-color: transparent;
+}
+.card-footer ::placeholder{
+    text-align: left;
+}
+.card-footer .btn {
+font-size: 14px;
+}
+/* Posts End */
